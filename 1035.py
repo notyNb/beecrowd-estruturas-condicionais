@@ -1,0 +1,8 @@
+a, b, c, d = map(int, input().split())
+ 
+ 
+if b > c and d > a and c + d > a + b and c and d >=0 and  (a%2) == 0:  
+    print(f"Valores aceitos")
+
+else:
+    print(f"Valores nao aceitos")
